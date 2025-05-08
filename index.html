@@ -76,7 +76,16 @@
   <input type="text" name="name" id="name" required><br><br>
 
   <label for="phone">Phone Number:</label><br>
-  <input type="tel" name="phone" id="phone" pattern="[0-9+ ]+" placeholder="+61 4XX XXX XXX"><br><br>
+  <label for="phone">Phone Number:</label><br>
+<input
+  type="tel"
+  name="phone"
+  id="phone"
+  pattern="04[0-9]{8}"
+  title="Australian mobile number starting with 04"
+  placeholder="04XXXXXXXX"
+  required
+><br><br>
 
   <label for="message">Message:</label><br>
   <textarea name="message" id="message" rows="5" required></textarea><br><br>
